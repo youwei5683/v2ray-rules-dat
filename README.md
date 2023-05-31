@@ -37,6 +37,7 @@
   - 同时加入到 `geosite:geolocation-!cn` 类别中
 - **加入 BLUESKYXN_ALL 广告域名**：通过 [@BlueSkyXN/AdGuardHomeRules](https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt) 获取并加入到 `geosite:category-ads-all` 类别中
 - **加入 EasyList 和 EasyListChina 广告域名**：通过 [@AdblockPlus/EasylistChina+Easylist.txt](https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt) 获取并加入到 `geosite:category-ads-all` 类别中
+- **加入 ADGK 和 Anti-Domain-List 广告域名**：通过 [@217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 获取并加入到 `geosite:category-ads-all` 类别中
 - **加入 AdGuard DNS Filter 广告域名**：通过 [@AdGuard/DNS-filter](https://kb.adguard.com/en/general/adguard-ad-filters#dns-filter) 获取并加入到 `geosite:category-ads-all` 类别中
 - **加入 Peter Lowe 广告和隐私跟踪域名**：通过 [@PeterLowe/adservers](https://pgl.yoyo.org/adservers) 获取并加入到 `geosite:category-ads-all` 类别中
 - **加入 Dan Pollock 广告域名**：通过 [@DanPollock/hosts](https://someonewhocares.org/hosts) 获取并加入到 `geosite:category-ads-all` 类别中
@@ -410,31 +411,3 @@ steamstatic.com.8686c.com @cn
   }
 }
 ```
-
-## 激赏 | Donation
-
-**比特币（BTC）bech32 地址**：bc1qfe4nxcanet4w4ph8pf6qqyf263y68vw26nv9j9
-
-## 使用本项目的项目
-
-- [@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
-- [@Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules)
-
-## 致谢
-
-- [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
-- [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
-- [@Loyalsoldier/domain-list-custom](https://github.com/Loyalsoldier/domain-list-custom)
-- [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
-- [@gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)
-- [@cokebar/gfwlist2dnsmasq](https://github.com/cokebar/gfwlist2dnsmasq)
-- [@Loyalsoldier/cn-blocked-domain](https://github.com/Loyalsoldier/cn-blocked-domain)
-- [@AdblockPlus/EasylistChina+Easylist.txt](https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt)
-- [@AdGuard/DNS-filter](https://kb.adguard.com/en/general/adguard-ad-filters#dns-filter)
-- [@PeterLowe/adservers](https://pgl.yoyo.org/adservers)
-- [@DanPollock/hosts](https://someonewhocares.org/hosts)
-- [@crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
-
-## 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/Loyalsoldier/v2ray-rules-dat.svg)](https://starchart.cc/Loyalsoldier/v2ray-rules-dat)
